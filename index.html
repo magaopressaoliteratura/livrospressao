@@ -1,67 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>flstudiomobile</title>
-  <style>
-    body {
-      background-color: #111;
-      color: #fff;
-      font-family: Arial, sans-serif;
-      padding: 20px;
-      text-align: center;
-    }
-    h1 {
-      font-size: 28px;
-      margin-bottom: 10px;
-    }
-    p {
-      font-size: 18px;
-      margin: 10px 0;
-    }
-    .botao {
-      display: inline-block;
-      padding: 12px 20px;
-      margin: 15px 5px;
-      background-color: #28a745;
-      color: white;
-      font-size: 16px;
-      border-radius: 8px;
-      text-decoration: none;
-    }
-    .botao:hover {
-      background-color: #218838;
-    }
-    .oculto {
-      display: none;
-    }
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flstudiomobile.pdf</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+    <header class="hero">
+        <h1>Dominando o FL Studio Mobile</h1>
+        <p>O guia completo para criar músicas incríveis no seu celular</p>
+        <a href="#comprar" class="btn">Comprar Agora - R$ 24,99</a>
+    </header>
 
-  <h1>📘 flstudiomobile</h1>
-  <p>O guia definitivo para criar beats e músicas no celular</p>
+    <section class="sobre">
+        <div class="container">
+            <h2>Sobre o Livro</h2>
+            <img src="assets/capa-livro.jpg" alt="Capa do Livro" class="capa" />
+            <p>Este livro digital ensina tudo o que você precisa saber para produzir músicas profissionais usando apenas o FL Studio Mobile. Desde os primeiros passos até técnicas avançadas.</p>
+        </div>
+    </section>
 
-  <h2>💰 Valor</h2>
-  <p>R$ 24,99 via Pix</p>
-  <p><strong>Chave Pix:</strong> 85994074697</p>
-  <p><strong>Nome:</strong> Francisco Rafael da Silva Sousa</p>
+    <section class="conteudo">
+        <div class="container">
+            <h2>O que você vai aprender</h2>
+            <ul>
+                <li>✔️ Interface e funcionalidades do app</li>
+                <li>✔️ Criação de beats e melodias</li>
+                <li>✔️ Edição de áudio e mixagem</li>
+                <li>✔️ Automação e efeitos</li>
+                <li>✔️ Exportação e distribuição</li>
+            </ul>
+        </div>
+    </section>
 
-  <h2>📲 Pagamento</h2>
-  <p>Após o pagamento, clique no botão abaixo para confirmar:</p>
-  <button class="botao" onclick="mostrarDownload()">Já paguei</button>
+    <section class="depoimentos">
+        <div class="container">
+            <h2>Depoimentos</h2>
+            <blockquote>"Nunca pensei que conseguiria produzir minhas próprias músicas direto do celular. Esse livro mudou tudo!" — João Beats</blockquote>
+            <blockquote>"Explicações claras e diretas. Recomendo pra qualquer iniciante!" — DJ Clara</blockquote>
+        </div>
+    </section>
 
-  <div id="download" class="oculto">
-    <h2>📥 Baixar o livro</h2>
-    <a href="flstudiomobile.pdf" class="botao" download>👉 Baixar PDF</a>
-  </div>
+    <section class="comprar" id="comprar">
+        <div class="container">
+            <h2>Adquira o seu agora</h2>
+            <p>Valor: <strong>R$ 24,99</strong></p>
+            <p>Pagamento via Pix para a chave: <strong>85994074697</strong> (Francisco Rafael da Silva Sousa)</p>
+            <p>Após o pagamento, envie o comprovante para nosso Instagram: <a href="https://instagram.com/pressaomagao" target="_blank">@pressaomagao</a></p>
+        </div>
+    </section>
 
-  <script>
-    function mostrarDownload() {
-      document.getElementById("download").classList.remove("oculto");
-    }
-  </script>
-
+    <footer class="footer">
+        <p>© 2025 Magaopressao - Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>

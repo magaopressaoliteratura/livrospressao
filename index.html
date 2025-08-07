@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dominando o FL Studio Mobile</title>
+  <style>
+    body {
+      background-color: #111;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+    .botao {
+      display: inline-block;
+      padding: 12px 20px;
+      margin: 15px 5px;
+      background-color: #28a745;
+      color: white;
+      font-size: 16px;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+    .botao:hover {
+      background-color: #218838;
+    }
+    .oculto {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>📘 Dominando o FL Studio Mobile</h1>
+  <p>O guia definitivo para criar beats e músicas no celular</p>
+
+  <h2>💰 Valor</h2>
+  <p>R$ 24,99 via Pix</p>
+  <p><strong>Chave Pix:</strong> 85994074697</p>
+  <p><strong>Nome:</strong> Francisco Rafael da Silva Sousa</p>
+
+  <h2>📲 Pagamento</h2>
+  <p>Após o pagamento, clique no botão abaixo para confirmar:</p>
+  <button class="botao" onclick="mostrarDownload()">Já paguei</button>
+
+  <div id="download" class="oculto">
+    <h2>📥 Baixar o livro</h2>
+    <a href="Dominando o FL Studio Mobile - Magaopressao.pdf" class="botao" download>👉 Baixar PDF</a>
+  </div>
+
+  <script>
+    function mostrarDownload() {
+      document.getElementById("download").classList.remove("oculto");
+    }
+  </script>
+
+</body>
+</html>
